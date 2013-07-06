@@ -9,7 +9,7 @@
 <body>
 <h3>Success!!!</h3>
 <%
-User user = (User) session.getAttribute("user");
+User user = (User) request.getAttribute("user");
 %>
 
 Hello <%=user.getUserName() %>
