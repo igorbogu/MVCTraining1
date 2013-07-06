@@ -11,7 +11,7 @@
 <form action="login" method="post">
 
 
-	UserName: <input type="text" name="userId"/><br>
+	UserName: <input type="text" name="UserId"/><br>
 	Password: <input type="password" name="password"/><br>
 	<input type="submit"/>
 
